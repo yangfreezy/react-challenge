@@ -11,7 +11,6 @@ export class App extends PureComponent {
         <Suspense fallback={<Loading variant="dark" />}>
           <Switch>
             <PublicRoute exact path={routes.ROOT} component={pages.RootPage} />
-            <PublicRoute exact path={routes.SANDBOX} component={pages.SandboxPage} />
             <Route component={pages.ErrorPage} />
           </Switch>
         </Suspense>
