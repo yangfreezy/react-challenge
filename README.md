@@ -1,6 +1,6 @@
 ## Cognitiv React Redux Challenge
 
-Fork the repo into your GitHub Account. Pull the repo locally and run 'yarn' to install the node modules. I recommend using Visual Studio Code if you dont already use it and install Beautify and ESLint extensions.
+Fork the repo into your GitHub Account or download the package locally. Run 'yarn' to install the node modules. I recommend using Visual Studio Code if you dont already use it and install Beautify and ESLint extensions. All feedback is appreciated and please spend 3-4 hours on this challenge.
 
 ### Cognitiv Directions
 
