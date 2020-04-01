@@ -29,6 +29,6 @@ To make this action happen you will need to create a user reducer in the ducks f
 
 ### Dashboard Page
 
-After the user has been authenticated they will land on the Dashboard Page. Create a navigation menu that runs along the top of the page. This should be imported into the PrivateLayout component. Design the navigation however you want but it must have the Cognitiv logo located on the left and a logout button located on the right. Feel free to leave the middle section blank since there isnt anywhere to go inside this SPA. The logout buttons expected behavior is to be sent back to the login screen and clear the user. Add something unique to the actual dashboard page. This could be an image or a small bit of text or even something you have created in the past. For example, I added some pictures of dogs doing funny stuff. If you have any questions reach out to your recruiter.
+After the user has been authenticated they will land on the Dashboard Page. Add something unique to this page. This could be an image or a small bit of text or even something you have created in the past. For example, I added some pictures of dogs doing funny things. The only requirement for this page is to have a button somewhere that will allow a user to "logout". The logout button should be hooked up to Redux and clear the user. If you have any questions reach out to your recruiter.
 
 Thank you for taking the time to complete this challenge and we look forward to speaking again!
