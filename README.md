@@ -23,7 +23,7 @@ When a user clicks the 'Sign In' button:
 - Redirect to the /dashboard page
 - Deactivate the loading action with Redux
 
-To make this action happen you will need to create a user reducer in the ducks folder. The key to authenticate a user will be to pass an arbitrary authentication key to the user reducer.
+To make this action happen you will need to create a user reducer in the ducks folder. The key to authenticate a user will be to pass an arbitrary authentication key to the user reducer. Look inside the routes directory for information on how users are authenticated inside this repo.
 
 ![](public/LoginPage.png)
 
