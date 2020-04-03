@@ -29,6 +29,6 @@ To make this action happen you will need to create a user reducer in the ducks f
 
 ### Dashboard Page
 
-After the user has been authenticated they will land on the Dashboard Page. Add something unique to this page. The only requirement for this page is to have a button somewhere that will allow a user to "logout". The logout button should be hooked up to Redux and clear the user. If you have any questions reach out to your recruiter.
+After the user has been authenticated they will land on the Dashboard Page. The only requirement for this page is to have a button somewhere that will allow a user to "logout". The logout button should be hooked up to Redux and clear the user. If you have any questions reach out to your recruiter.
 
 Thank you for taking the time to complete this challenge and we look forward to speaking again!
