@@ -1,6 +1,6 @@
-$primary_font_color:#fff;
-$primary_color: pink;
-$secondary_font_color:#fff;
+$primary_font_color: #fff;
+$primary_color: #e542af;
+$secondary_font_color: #fff;
 $secondary_color: orange;
 $border_radius: 3px;
 $font_size: 13px;
@@ -26,11 +26,7 @@ $box_shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.12);
 .primary {
   color: $primary_font_color;
   background: $primary_color;
-  background: linear-gradient(
-    90deg,
-    lighten($primary_color, 5%) 0%,
-    $primary_color 100%
-  );
+  background: linear-gradient(90deg, lighten($primary_color, 5%) 0%, $primary_color 100%);
   border: 1px solid $primary_color;
   &:hover {
     background: darken($primary_color, 5%);

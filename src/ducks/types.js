@@ -5,4 +5,5 @@ export const SET_LOADING = 'SET_LOADING';
 export const SET_MODAL = 'SET_MODAL';
 
 // POKEMON REDUCER ACTIONS
-export const SET_USER = 'SET_USER';
+export const SET_USER_LOGGED_IN = 'SET_USER_LOGGED_IN';
+export const SET_USER_LOGGED_OUT = 'SET_USER_LOGGED_OUT';

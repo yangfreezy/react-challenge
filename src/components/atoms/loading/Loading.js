@@ -1,7 +1,9 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
+
 import cn from './Loading.module.scss';
+
 const { PUBLIC_URL } = process.env;
 
 export class Loading extends PureComponent {

@@ -1,0 +1,14 @@
+$primary_color: pink;
+
+.dashboard-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+  background: black;
+  padding: 0px 25px;
+}
+
+.dashboard-links > * {
+  color: $primary_color;
+}

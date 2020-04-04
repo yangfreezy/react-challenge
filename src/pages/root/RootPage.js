@@ -1,32 +1,30 @@
-import React, { Component } from 'react';
-import { connect } from 'react-redux';
-import PropTypes from 'prop-types';
-import { setModal as setModalAction, setLoading as setLoadingAction } from 'ducks/actions';
+import React from 'react';
+import classNames from 'classnames';
+
 import cn from './RootPage.module.scss';
 
-export class RootPage extends Component {
-  static propTypes = {
-    setModal: PropTypes.func,
-    setLoading: PropTypes.func,
-  };
+import { LogInView } from '../../components/organisms/logInView/LogInView';
+import { CognitivLogo } from '../../components/atoms/cognitivLogo/CognitivLogo';
+import { CopyrightText } from '../../components/atoms/copyrightText/CopyrightText';
+import { Row } from '../../components/atoms/row/Row';
+import { Column } from '../../components/atoms/column/Column';
 
-  state = {
-    email_address: '',
-    password: '',
-  };
+const RootPage = React.memo(() => (
+  <Column justifyContent="space-between" margin="50px 25px" height="60vh">
+    <div className={classNames(cn['login-container'])}>
+      <Column>
+        <CognitivLogo />
+        <Row alignItems="flex-start">
+          <LogInView />
+        </Row>
+      </Column>
+    </div>
+    <CopyrightText />
+  </Column>
+));
 
-  render() {
-    return (
-      <div className={cn.page}>
-        <h1>ROOT PAGE HERE</h1>
-      </div>
-    );
-  }
-}
+RootPage.defaultProps = {};
 
-const mapDispatchToProps = {
-  setModal: setModalAction,
-  setLoading: setLoadingAction,
-};
+RootPage.propTypes = {};
 
-export default connect(null, mapDispatchToProps)(RootPage);
+export default RootPage;

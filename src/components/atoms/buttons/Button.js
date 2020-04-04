@@ -2,6 +2,7 @@ import React from 'react';
 import * as PropTypes from 'prop-types';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import classNames from 'classnames';
+
 import cn from './Button.module.scss';
 
 export const Button = React.memo(({ children, margin, width, left_icon, right_icon, variant, disabled, onClick }) => (
@@ -17,6 +18,7 @@ export const Button = React.memo(({ children, margin, width, left_icon, right_ic
     {right_icon && <FontAwesomeIcon className={cn.rightIcon} icon={right_icon} />}
   </button>
 ));
+
 Button.defaultProps = {
   left_icon: false,
   right_icon: false,
@@ -26,6 +28,7 @@ Button.defaultProps = {
   disabled: false,
   onClick: () => {},
 };
+
 Button.propTypes = {
   disabled: PropTypes.any,
   margin: PropTypes.string,

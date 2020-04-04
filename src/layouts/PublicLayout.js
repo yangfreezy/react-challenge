@@ -1,8 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
+
 import { setModal as setModalAction } from 'ducks/actions';
-import { Loading } from 'components/loading/Loading';
+
+import { Loading } from 'components/atoms/loading/Loading';
 import cn from './Layouts.module.scss';
 
 export class ConnectedPublicLayout extends React.PureComponent {

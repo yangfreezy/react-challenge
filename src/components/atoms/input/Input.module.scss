@@ -1,0 +1,15 @@
+$font_size: 13px;
+$background_color: #e9f1fe;
+
+.input {
+  background-color: $background_color;
+  font-size: $font_size;
+  border: 1px solid #cccccc;
+  padding: 7px 7px;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+
+.input:focus {
+  outline: none;
+}

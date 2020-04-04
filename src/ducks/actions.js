@@ -13,7 +13,12 @@ export const setLoading = loading => ({
 });
 
 // ------ USER ACTIONS ------ //
-export const setUser = user => ({
-  type: constants.SET_USER,
+export const setUserLoggedIn = user => ({
+  type: constants.SET_USER_LOGGED_IN,
+  payload: user,
+});
+
+export const setUserLoggedOut = user => ({
+  type: constants.SET_USER_LOGGED_OUT,
   payload: user,
 });

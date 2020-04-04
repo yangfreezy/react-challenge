@@ -1,0 +1,15 @@
+.dashboard-content-container {
+}
+
+.dashboard-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+  background: black;
+  padding: 0px 50px;
+}
+
+.dashboard-links > * {
+  color: pink;
+}

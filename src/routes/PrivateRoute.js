@@ -2,7 +2,9 @@ import React, { PureComponent } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { Route, Redirect, withRouter } from 'react-router-dom';
+
 import { routes } from 'routes/routes';
+
 import { PrivateLayout } from 'layouts/PrivateLayout';
 
 class ConnectedPrivateRoute extends PureComponent {
@@ -40,7 +42,7 @@ class ConnectedPrivateRoute extends PureComponent {
   }
 }
 const mapStateToProps = state => ({
-  user: state.user,
+  user: state.settings.user,
 });
 
 export const PrivateRoute = withRouter(connect(mapStateToProps)(ConnectedPrivateRoute));
